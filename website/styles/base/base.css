@@ -7,7 +7,7 @@ footer{
     box-sizing: border-box;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 30px;
+    gap: 50px;
     /* flex-wrap: nowrap; */
 
 }
@@ -19,7 +19,6 @@ footer ul{
     padding-left: 15px;
     line-height: 30px;
 }
-
 
 
 .underline{
