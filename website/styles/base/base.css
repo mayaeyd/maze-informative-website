@@ -1,0 +1,39 @@
+footer{
+    height: auto;
+    width: 100%;
+    background-color: #212121;
+    box-sizing: border-box;
+    padding-block: 40px;
+    padding-inline: 50px; 
+}
+
+.footer-container{
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+
+.footer-container > div > ul{
+    margin-left: 15px;
+    list-style-type: none;
+}
+
+.themix-semibold{
+    font-family: 'TheMix SemiBold';
+    color: white;
+    font-size: 14px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.footer-subtitle{
+    font-family: 'TheMix Black';
+    color: #7A7A7A;
+}
