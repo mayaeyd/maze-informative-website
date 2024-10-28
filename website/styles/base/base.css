@@ -38,6 +38,14 @@ footer ul{
     text-decoration-thickness: 2px ;
 }
 
+.footer-title{
+    font-family: 'Konga Next';
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 42px;
+    letter-spacing: normal;
+}
+
 .footer-subtitle{
     font-family: 'Konga Next';
     font-size: 28px;
@@ -45,10 +53,8 @@ footer ul{
     width: 130px;
 }
 
-.footer-title{
-    font-family: 'Konga Next';
-    text-transform: uppercase;
-    color: #FFFFFF;
-    font-size: 20px;
-    letter-spacing: normal;
+.footer-section3 .footer-subtitle{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 12px;
 }
