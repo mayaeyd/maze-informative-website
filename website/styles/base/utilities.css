@@ -39,3 +39,12 @@
 .flex-wrap{
     flex-wrap: wrap;
 }
+
+.themix-semibold{
+    font-family: 'TheMix SemiBold';
+    color: white;
+    font-size: 14px;
+    margin: 5px;
+    cursor: pointer;
+    list-style-type: none;
+}

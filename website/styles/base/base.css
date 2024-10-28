@@ -13,18 +13,14 @@ footer{
 }
 
 
-footer > div > ul{
-    margin-left: 15px;
-    list-style-type: none;
+
+footer ul{
+    padding-top: 40px;
+    padding-left: 15px;
+    line-height: 30px;
 }
 
-.themix-semibold{
-    font-family: 'TheMix SemiBold';
-    color: white;
-    font-size: 14px;
-    margin: 5px;
-    cursor: pointer;
-}
+
 
 .underline{
     text-decoration: underline;
@@ -44,8 +40,10 @@ footer > div > ul{
 }
 
 .footer-subtitle{
-    font-family: 'TheMix Black';
-    color: #7A7A7A;
+    font-family: 'Konga Next';
+    font-size: 28px;
+    color: #FFFFFF;
+    width: 130px;
 }
 
 .footer-title{
