@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: 'Konga Next Shadow';
     src: url(./../../assests/fonts/konga/Konga\ Next\ Shadow.otf);
@@ -11,4 +17,25 @@
 @font-face {
     font-family: 'TheMix SemiBold';
     src: url(./../../assests/fonts/theMix/TheMixSemiBold.otf);
+}
+
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
 }
