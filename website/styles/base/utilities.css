@@ -49,3 +49,10 @@
     cursor: pointer;
     list-style-type: none;
 }
+
+.title{
+    font-family: 'Konga Next';
+    font-size: 90px;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+}

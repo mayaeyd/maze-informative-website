@@ -1,5 +1,13 @@
 @import url(./utilities.css);
 
+.characters-container{
+    background-image: url(./../../assests/images/characters-bg.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
 footer{
     height: auto;
     width: 100%;
