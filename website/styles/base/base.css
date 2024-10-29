@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
+    overflow: hidden;
 }
 
 .characters-container .subtitle{
@@ -47,10 +48,11 @@
 }
 
 @keyframes slide {
-    0% {transform: translateX(-200%);}       
-    33.33% {transform: translateX(100%);} 
-    66.66% {transform: translateX(-200%);} 
-    100% {transform: translateX(100%);}      
+    0% {transform: translateX(0%);}       
+    25% {transform: translateX(100%);} 
+    50% {transform: translateX(0%);} 
+    75% {transform: translateX(100%);}
+    100%{transform: translate(0%);}      
 }
 
 .road-container{
