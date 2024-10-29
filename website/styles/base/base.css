@@ -13,10 +13,11 @@
     margin-bottom: 0;
     padding-bottom: 0;
     text-align: center;
-    font-size: 30px !important;
+    font-size: 3.5vw !important;
 }
 
 .characters-container > div{
+    margin-top: 40px;
     gap: 20px;
 }
 
