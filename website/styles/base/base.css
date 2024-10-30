@@ -109,9 +109,16 @@ footer ul {
   font-family: "Konga Next";
   text-transform: uppercase;
   color: #ffffff;
-  font-size: 42px;
+  font-size: 35px;
   letter-spacing: normal;
   width: auto;
+}
+
+.footer-subtitle{
+    font-family: 'Konga Next';
+    font-size: 28px;
+    color: #FFFFFF;
+    width: 136px;
 }
 
 .footer-section3 .footer-subtitle {
