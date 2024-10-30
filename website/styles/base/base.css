@@ -2,6 +2,11 @@
 .burger-navbar{
     display: none;
 }
+.space{
+    width: 100%;
+    height: 150px;
+  }
+
 nav{
     width: 100%;
     gap: 30%;
@@ -50,6 +55,18 @@ nav >div>h1{
     width: 120px;
     height: 120px;
 }
+.hero-section{
+    width: 100%;
+    height: auto;
+    background-image: url(./../../assests/images/characters-bg.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.hero-section h1 {
+    text-shadow: 2px 4px black;
+}
+
 .characters-container{
     background-image: url(./../../assests/images/characters-bg.PNG);
     background-repeat: no-repeat;
@@ -227,4 +244,4 @@ footer ul{
 
         font-size: large;
 
-    }
+    }}
