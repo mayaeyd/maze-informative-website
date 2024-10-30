@@ -7,27 +7,60 @@
     <link rel="stylesheet" href="../website/styles/base/base.css" />
     <link rel="stylesheet" href="../website/styles/base/utilities.css" />
     <link rel="stylesheet" href="../website/styles/base/colors.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+
   </head>
   <body>
     <header>
-      <nav>
-        <div class="nav-container">
-          <img
-            src="../website/assests/images/logo.png"
-            alt="logo"
-            class="logo"
-          />
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#characters">Characters</a></li>
-            <li><a href="#controls">Controls</a></li>
-            <li><a href="#tutorial">Tutorial</a></li>
-            <li><a href="#story">Story</a></li>
-          </ul>
-        </div>
+      <nav class="flex row center">
+          <div class="flex row ">
+             <div class="logo-img th"><img width="100%" height="100%" src="../website/assests/images/logo.png" alt="logo" class="logo"></div>
+             <h1 >ROADWAY <br>RIDDLE</h1>
+          </div>
+          <div class="flex center navbar">
+            <ul class="flex row inria-sans-regular">
+             <li><a href="#Rules">RULES</a></li>
+             <li><a href="#Characters">CHARACTERS</a></li>
+             <li><a href="#Levels">LEVELS</a></li>
+           </ul>
+          </div> 
+          <div class="burger-navbar"><div class="hamburger"></div></div>
       </nav>
     </header>
-    <!--Characters section-->
+    
+    <section class="flex column center hero-section">
+      <div class="space"></div>
+      <div class="flex row center flex-wrap">
+        <div class="flex column center">
+          <h1 class="title yellow">Feul Up,</h1>
+          <h1 class="title" style="color: white;">Pick Up,</h1>
+        </div>
+        <div>
+          <img src="assests/images/Taxi-Cartoon-Car-hd-unscreen.gif" width="100%">
+        </div>
+      </div>
+      <h1 class="title pink">Don't Miss The Ride!</h1>
+    </section>
+
+    <section class="rules-section flex column">
+      <h1 class="title ">RULES</h1>
+      <p>Welcome to Roadway Riddle!<br> Guide The Taxi through three exciting levels, each one with its own goal.<br>Navigate through the maze, collect all fuel tanks, and pick passengers<br> up along the way. Can you make it along all three levels and master the maze?<br> Good luck, Drive Safe, and Enjoy!</p>
+      <div class="flex row flex-wrap">
+        <div class="flex row">
+          <img src="assests/images/gas-station-08.png" height="100px" width="100px">
+          <h2>Fuel Up Before You Run Out</h2>
+        </div>
+        <div class="flex row">
+          <img src="assests/images/worker.png" height="100px" width="70px" >
+          <h2>Pick Passengers Up, Don’t Be Late</h2>
+        </div>
+      </div>
+
+    </section>
+
     <section class="characters-container full-width">
       <h1 class="title">
         <span class="pink">Meet</span> <span class="yellow">Our</span>
@@ -67,7 +100,6 @@
 
     <div class="road-container full-width"></div>
 
-    <!--Levels Section-->
 
     <section class="Levels-container full-width">
       <h1 class="title">
