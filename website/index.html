@@ -7,25 +7,27 @@
     <link rel="stylesheet" href="../website/styles/base/base.css" />
     <link rel="stylesheet" href="../website/styles/base/utilities.css" />
     <link rel="stylesheet" href="../website/styles/base/colors.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
 
   </head>
   <body>
     <header>
-      <nav>
-        <div class="nav-container">
-          <img
-            src="../website/assests/images/logo.png"
-            alt="logo"
-            class="logo"
-          />
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#characters">Characters</a></li>
-            <li><a href="#controls">Controls</a></li>
-            <li><a href="#tutorial">Tutorial</a></li>
-            <li><a href="#story">Story</a></li>
-          </ul>
-        </div>
+      <nav class="flex row center">
+          <div class="flex row ">
+             <div class="logo-img th"><img width="100%" height="100%" src="../website/assests/images/logo.png" alt="logo" class="logo"></div>
+             <h1 >ROADWAY <br>RIDDLE</h1>
+          </div>
+          <div class="flex center navbar">
+            <ul class="flex row inria-sans-regular">
+             <li><a href="#Rules">RULES</a></li>
+             <li><a href="#Characters">CHARACTERS</a></li>
+             <li><a href="#Levels">LEVELS</a></li>
+           </ul>
+          </div> 
+          <div class="burger-navbar"><div class="hamburger"></div></div>
       </nav>
     </header>
 
