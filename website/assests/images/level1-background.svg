@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 100 100">
+    <!-- Background -->
+    <rect width="100" height="100" fill="#f0f0f0"/>
+    
+    <!-- Road with texture -->
+    <path d="M 10 50 L 90 50" stroke="#555" stroke-width="20" stroke-linecap="round"/>
+    <path d="M 15 45 L 85 45" stroke="#fff" stroke-width="1" stroke-dasharray="5,5"/>
+    <path d="M 15 55 L 85 55" stroke="#fff" stroke-width="1" stroke-dasharray="5,5"/>
+    
+    <!-- Start and end points -->
+    <circle cx="10" cy="50" r="5" fill="green">
+        <animate attributeName="fill-opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="90" cy="50" r="5" fill="red">
+        <animate attributeName="fill-opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Car body with enhanced design -->
+    <path d="M 20 45 
+             h 10 v -5 
+             h 15 v 5 
+             h 10 v 10 
+             h -35 z" 
+          fill="#4A90E2"
+          stroke="#2171D1"
+          stroke-width="1"/>
+    
+    <!-- Car windows -->
+    <path d="M 32 40 h 8 v 5 h -8 z" fill="#A5D3FF"/>
+    <path d="M 42 40 h 8 v 5 h -8 z" fill="#A5D3FF"/>
+    
+    <!-- Wheels with rims -->
+    <circle cx="25" cy="55" r="3.5" fill="#333"/>
+    <circle cx="25" cy="55" r="1.5" fill="#666"/>
+    <circle cx="45" cy="55" r="3.5" fill="#333"/>
+    <circle cx="45" cy="55" r="1.5" fill="#666"/>
+</svg>
