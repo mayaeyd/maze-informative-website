@@ -18,6 +18,11 @@
     font-family: 'TheMix SemiBold';
     src: url(./../../assests/fonts/theMix/TheMixSemiBold.otf);
 }
+.inria-sans-regular {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 
 .flex{
@@ -35,6 +40,9 @@
 
 .column{
     flex-direction: column;
+}
+.row {
+    flex-direction: row;
 }
 
 .center{
