@@ -101,48 +101,62 @@
     <div class="road-container full-width"></div>
 
 
+ Levels
+    <section class="levels-section">
+      <h1 class="levels-title">
+        <span class="text-pink">Pick-Up</span>
+        <span class="text-yellow">Your</span>
+        <span class="text-green">Level</span>
+
     <section class="Levels-container full-width" id="levels">
       <h1 class="title">
         <span class="pink">Pick-Up</span> <span class="yellow">Your</span>
         <span class="green">Level</span>
+
       </h1>
 
-      <div class="flex flex-1 Level">
-        <div class="card" style="background-color: yellow">
-          <div class="header">Level 1</div>
-          <img src="./assests/images/level1.png" alt="Level1" />
-          <p>Easy</p>
-          <p style="font-size: 12px">
-            You are a beginner, you have to learn how to drive a car. Reach the
-            final Destination.
-          </p>
+      <div class="levels-grid">
+        <!-- Level 1 Card -->
+        <article class="level-card level-card--1" style="--card-color: #ff69b4">
+          <div class="card">
+            <h2 class="card-header">Level 1</h2>
 
-          <button class="Level-button">Start Playing now</button>
-        </div>
+            <p class="card-description">
+              You are a beginner, you have to learn how to drive a car. Reach
+              the final Destination.
+            </p>
+            <p class="card-difficulty">Easy</p>
+            <button class="level-button">Start Playing now</button>
+          </div>
+        </article>
 
-        <div class="card" style="background-color: pink">
-          <div class="header">Level 2</div>
-          <img src="./assests/images/level2.png" alt="Level2" />
-          <p>Moderate</p>
-          <p style="font-size: 12px">
-            You are a moderate driver, you have to drive a car on a busy road.
-            Don't run out of Fuel.
-          </p>
+        <!-- Level 2 Card -->
+        <article class="level-card level-card--2" style="--card-color: #ffeb3b">
+          <div class="card">
+            <h2 class="card-header">Level 2</h2>
 
-          <button class="Level-button">Start Playing now</button>
-        </div>
+            <p class="card-description">
+              You are a moderate driver, you have to drive a car on a busy road.
+              Don't run out of Fuel.
+            </p>
+            <p class="card-difficulty">Moderate</p>
+            <button class="level-button">Start Playing now</button>
+          </div>
+        </article>
 
-        <div class="card" style="background-color: lightgreen">
-          <div class="header">Level 3</div>
-          <img src="./assests/images/level2.png" alt="Level3" />
-          <p>Hard</p>
-          <p style="font-size: 12px">
-            You are an expert driver, you have to</br> Pick up Passengers On your
-            way.
-          </p>
+        <!-- Level 3 Card -->
+        <article class="level-card level-card--3" style="--card-color: #90ee90">
+          <div class="card">
+            <h2 class="card-header">Level 3</h2>
 
-          <button class="Level-button">Start Playing now</button>
-        </div>
+            <p class="card-description">
+              You are an expert driver, you have to Pick up Passengers On your
+              way.
+            </p>
+            <p class="card-difficulty">Hard</p>
+            <button class="level-button">Start Playing now</button>
+          </div>
+        </article>
       </div>
     </section>
 
